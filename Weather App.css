@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(146, 123, 249);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(245, 245, 245);
+    display: flex;
+    
+}
+.container{
+    background:linear-gradient(135deg,rgb(63, 66, 254) ,rgb(255, 66, 66));
+    box-shadow: 0px 0px 20px black ;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: fit-content;
+}
+div.search{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    color: whitesmoke;
+    font-size: 17px;
+    flex: 1;
+    padding-left: 25px;
+    margin-right: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+}
+button{
+    cursor:pointer;
+    font-size: 16px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+input::placeholder{
+    color: rgb(255, 255, 255,0.4);
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#weather{
+    display:none;
+    margin: auto;
+    text-align: center;
+
+}
+#details{
+    display:none;
+    justify-content: space-between;
+    text-align: center;
+}
+hr{
+    margin: 30px 0px;
+    border-style: solid;
+}
+img{
+    height:200px;
+    width: auto;
+}
+h4,#weather h1, #weather h2{
+    margin: 0px;
+}
